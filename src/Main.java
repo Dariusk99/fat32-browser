@@ -1,5 +1,13 @@
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        try {
+            Disk disk = new Disk("fat32.img");
+
+        } catch (Exception e) {
+            System.out.println("ERROR:");
+            e.printStackTrace();
+        }
     }
 }

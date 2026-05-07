@@ -5,6 +5,7 @@ out/
 .idea/
 *.iml
 
+fat32.img
 
 ### Eclipse ###
 .apt_generated

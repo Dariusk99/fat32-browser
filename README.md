@@ -1,4 +1,4 @@
-Uruchamianie:
+Uruchamianie przez terminal:
 
 Krok 1. fat32-browser-main\src> javac Main.java
 

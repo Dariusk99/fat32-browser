@@ -7,8 +7,8 @@ public class Disk implements AutoCloseable {
 
     private RandomAccessFile file;
 
+    // Load virtual disk file with read only mode
     public Disk(String filePath) throws FileNotFoundException {
-        // Load virtual disk file with read only mode
         file = new RandomAccessFile(filePath, "r");
     }
 
